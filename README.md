@@ -53,6 +53,11 @@ More details: http://pjreddie.com/darknet/yolo/
 Compiling on **Windows** by using `Cmake-GUI` as on this [**IMAGE**](https://user-images.githubusercontent.com/4096485/55107892-6becf380-50e3-11e9-9a0a-556a943c429a.png): Configure -> Optional platform for generator (Set: x64) -> Finish -> Generate -> Open Project -> x64 & Release -> Build -> Build solution
 
 Compiling on **Linux** by using command `make` (or alternative way by using command: `cmake . && make` )
+for manjaro/arch users before running `make` run:
+for opencv support:
+`sudo ln -s /usr/lib/pkgconfig/opencv4.pc /usr/lib/pkgconfig/opencv.pc `
+for GPU support:
+`sudo ln -s /opt/cuda/ /usr/local/cuda`
 
 #### Pre-trained models
 
